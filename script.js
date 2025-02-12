@@ -1,6 +1,13 @@
-fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-placeholder').innerHTML = data;
-            });
+function scrollLeft() {
+    document.querySelector('.card-container').scrollBy({
+        left: -200,
+        behavior: 'smooth'
+    });
+}
 
+function scrollRight() {
+    document.querySelector('.card-container').scrollBy({
+        left: 200,
+        behavior: 'smooth'
+    });
+}
