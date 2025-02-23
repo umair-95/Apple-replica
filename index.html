@@ -6,6 +6,7 @@
     <title>Apple</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="favicon.io-apple.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- --------------------------------------bootstrap js and dependencies------------------------- -->
     <script src="script.js"defer></script>
@@ -13,10 +14,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- <-------------------------------------Nav bar section---------------------------------------->
+    <!-- <-------------------------------------Navbar section---------------------------------------->
 <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="./Store.html"></a>
-    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="48" fill="currentColor" class="bi bi-apple" viewBox="0 0 17 48">
+    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="48" fill="currentColor">
         <path d="m 15.5752 19.0792 a 4.2055 4.2055 0 0 0 -2.01 3.5376 a 4.0931 4.0931 0 0 0 2.4908 3.7542 a 9.7779 9.7779 0 0 1 -1.2755 2.6351 c -0.7941 1.1431 -1.6244 2.2862 -2.8878 2.2862 s -1.5883 -0.734 -3.0443 -0.734 c -1.42 0 -1.9252 0.7581 -3.08 0.7581 s -1.9611 -1.0589 -2.8876 -2.3584 a 11.3987 11.3987 0 0 1 -1.9373 -6.1487 c 0 -3.61 2.3464 -5.523 4.6566 -5.523 c 1.2274 0 2.25 0.8062 3.02 0.8062 c 0.734 0 1.8771 -0.8543 3.2729 -0.8543 a 4.3778 4.3778 0 0 1 3.6822 1.841 Z m -6.8586 -2.0456 a 1.3865 1.3865 0 0 1 -0.2527 -0.024 a 1.6557 1.6557 0 0 1 -0.0361 -0.337 a 4.0341 4.0341 0 0 1 1.0228 -2.5148 a 4.1571 4.1571 0 0 1 2.7314 -1.4078 a 1.7815 1.7815 0 0 1 0.0361 0.373 a 4.1487 4.1487 0 0 1 -0.9867 2.587 a 3.6039 3.6039 0 0 1 -2.5148 1.3236 Z"></path>;
     </svg>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -194,7 +195,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./images/iphone-16_view.png" class="d-block w-100" alt=" iphone 16">
+        <img src="./images/iphone-16_view.png" class="d-block w-100 carousel-image" alt=" iphone 16">
         <div class="carousel-caption d-none d-md-block">
           <h5>From $1449 or $60.37/mo for 24 monthly at 0.00% Down payment</h5>
           <button type="button" class="btn btn-secondary">Learn More</button>
@@ -202,14 +203,14 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./images/image 2.png" class="d-block w-100" alt="All models">
+        <img src="./images/image 2.png" class="d-block w-100 carousel-image" alt="All models">
         <div class="carousel-caption d-none d-md-block">
             <h5>From $1449 or $60.37/mo for 24 monthly at 0.00% Down payment</h5>
             <p>Our thinnest borders yet — for even larger displays. Brilliant.</p> 
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./images/image3.png" class="d-block w-100" alt="a18 chip">
+        <img src="./images/image3.png" class="d-block w-100 carousel-image" alt="a18 chip">
         <div class="carousel-caption d-none d-md-block">
             <h5>From $1449 or $60.37/mo. for 24 mos. at 0.00% Down payment</h5>
             <p>All new A18 Pro chip powers unrivalled intelligence. And unprecedented performance.</p> 
@@ -228,7 +229,7 @@
 <!-- ------------------------------------Footer section------------------------------------- -->
  <footer class="py-5">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-6 col-md-2 mb-3">
                     <h5>Shop and Learn</h5>
                     <ul class="nav flex-column">
@@ -337,13 +338,23 @@
         </div>
     </div>
 
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>Created By Umair All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href=""><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-        </ul>
+    <div class="d-flex flex-column justify-content-center text-center border-top mb-0">
+        <div>
+            <p class="py-4">Created By Umair All rights reserved.</p>
+        </div>
+        <div>
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li class="mx-2">
+                    <a href="#"><i class="fa fa-facebook icon"></i></a>
+                </li>
+                <li class="mx-2">
+                    <a href="#"><i class="fa fa-twitter icon"></i></a>
+                </li>
+                <li class="mx-2">
+                    <a href="#"><i class="fa fa-instagram icon"></i></a>
+                </li>
+            </ul>
+        </div> 
     </div>
 </footer>
 </body>

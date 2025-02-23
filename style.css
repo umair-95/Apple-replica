@@ -7,31 +7,24 @@
 
 }
 
-.navbar-brand {
-    display: flex;
-    justify-content: center;
-}
-.nav-item {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+.navbar-brand{
+    margin-left: 150px; 
+    
 }
 
-#navbarNav {
-    justify-content: center;
-    display: flex; 
+#navbarNav{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px !important;
 }
 
-.navbar-nav {
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-}
 
-#search-form {
+
+
+/* #search-form {
     display: flex;
     align-items: center;
-}
+} */
 
 #search-input {
     transition: width 0.3s ease;
@@ -68,6 +61,13 @@
 .image-content {
     top: 80%;
 }
+
+/* ---------------------------------------carousel section---------------------------------------------*/
+.carousel-image{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
               
 /* ------------------------------------store html page-------------------------------------- */
 .image-container {
@@ -99,6 +99,7 @@
     padding-bottom: 25px;
     margin-bottom: 30px;;
 }
+
 /* ---------------------------------card section in store html page-------------------------------------- */
 .card-section{
     display: flex;
@@ -151,4 +152,10 @@
 
 .card-body{
     padding: 10px;
+}
+
+
+.icon{
+    font-size: 20px !important;
+    color:black;
 }
