@@ -19,13 +19,6 @@
 }
 
 
-
-
-/* #search-form {
-    display: flex;
-    align-items: center;
-} */
-
 #search-input {
     transition: width 0.3s ease;
     width: 0;
@@ -36,8 +29,43 @@
     width: 200px; /* Adjust width as needed */
     display: block;
 }
-/* -----------------------------header section iphone page----------------------------- */
+/* --------------------------------------iphone 16e------------------------------------ */
 
+.iphone-16-view{
+    position: relative;
+}
+
+.iphone-page-view img{
+    width: 100%;
+    height: auto;
+}
+
+.iphone-header, .iphone-content{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.iphone-content p{
+    font-size: 25px;
+    color: black;
+    margin-top: 50px;
+}
+
+#img-view-header{
+    font-size: 60px;
+    color:black
+}
+
+.iphone-content{
+    top: 20%;
+}
+
+
+/* --------------------------------------iphone page view ------------------------------------ */
 .iphone-page {
     position: relative;
 }
@@ -59,7 +87,7 @@
 }
 
 .image-content {
-    top: 80%;
+    top: 20%;
 }
 
 /* ---------------------------------------carousel section---------------------------------------------*/
